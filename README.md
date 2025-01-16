@@ -12,6 +12,7 @@ pkg install python3
 pip install requirements.txt
 git clone https://github.com/haniefautophile-official/bot-nodepay.git
 cd bot-nodepay
+pip install requirements.txt
 nano Tokent.txt
 nano run.py
 python3 run.py
