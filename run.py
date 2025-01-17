@@ -5,6 +5,24 @@ import time
 from loguru import logger
 import requests
 from concurrent.futures import ThreadPoolExecutor
+import os
+import pyfiglet
+
+def print_banner():
+    os.system('clear')  # Membersihkan layar terminal
+    banner = pyfiglet.figlet_format("Hanief Autophile")
+    print(banner)
+    print("=" * 50)
+    print("                INFO SCRIPT PYTHON3")
+    print("=" * 50)
+    print("Created by   : Hanief Autophile")
+    print("YouTube      : https://www.youtube.com/@tafsirmimpi1750")
+    print("Bot Telegram : @ObatKontolBot")
+    print("Telegram     : https://t.me/megamelatisukma")
+    print("=" * 50)
+
+
+print_banner()
 
 PING_INTERVAL = 60
 RETRIES = 60
