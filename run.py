@@ -81,7 +81,7 @@ scraper = cloudscraper.create_scraper(
 
 async def load_tokens():
     try:
-        with open('Token.txt', 'r') as file:
+        with open('toket.txt', 'r') as file:
             tokens = []
             for line in file:
                 # Menghapus spasi di awal dan akhir, lalu memeriksa apakah baris bukan komentar
