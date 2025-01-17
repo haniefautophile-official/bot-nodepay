@@ -12,6 +12,7 @@ pkg install python3
 git clone https://github.com/haniefautophile-official/bot-nodepay.git
 cd bot-nodepay
 pip install loguru
+pip install cloudscraper
 pip install -r requirements.txt
 nano Tokent.txt
 nano run.py
